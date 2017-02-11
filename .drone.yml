@@ -4,3 +4,6 @@ pipeline:
     commands:
       - pip install django==1.8.0
       - python manage.py test
+services:
+  db:
+    image: mariadb
