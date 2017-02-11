@@ -7,4 +7,5 @@ pipeline:
 services:
   db:
     image: mariadb
-     - MYSQL_ROOT_PASSWORD=database
+    environment:
+      - MYSQL_ROOT_PASSWORD=database
